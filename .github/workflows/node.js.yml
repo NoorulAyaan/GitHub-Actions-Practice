@@ -36,6 +36,6 @@ jobs:
       - name: Run tests
         run: npm test -- --watchAll=false
 
-      # Step 5: Build the React application
+      # Step 5: Build the React application (Fixed Indentation)
       - name: Build
-       
+        run: npm run build
